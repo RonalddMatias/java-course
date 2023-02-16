@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AnoBissexto {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Digite algum ano para saber se ele é bissexto: ");
