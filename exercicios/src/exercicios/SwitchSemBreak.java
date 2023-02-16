@@ -21,6 +21,7 @@ public class SwitchSemBreak {
 			System.out.println("sei dar um mortal para trás");
 		case "amarela":
 			System.out.println("sei pula");
+			break;
 		default:
 			System.out.println("nao sei de nada"); // padrao caso a str seja vazia
 		}
