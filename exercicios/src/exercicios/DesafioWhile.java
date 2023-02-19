@@ -32,6 +32,7 @@ public class DesafioWhile {
 		System.out.printf("A média das notas foi: %.2f", media);
 
 		sc.close();
+		
 
 	}
 
