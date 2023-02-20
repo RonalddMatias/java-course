@@ -17,12 +17,12 @@ public class ProdutoFinal {
 		p2.price = 50.00;
 		p2.discount = 0.20;
 		
-		double precoFinal1 = p1.price * (1- p1.discount);
-		double precoFinal2 = p2.price * (1 - p2.discount);
+		double precoFinal1 = p1.precoComDesconto();
+		double precoFinal2 = p2.precoComDesconto();
 		
 		double mediaFinal = (precoFinal1 + precoFinal2) / 2;
 		System.out.printf(" A média dos produtos comprados foi: %.2f", mediaFinal);
-		
+
 
 	}
 
