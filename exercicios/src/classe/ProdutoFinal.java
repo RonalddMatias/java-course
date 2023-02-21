@@ -7,10 +7,11 @@ public class ProdutoFinal {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		
-		Produto p1 = new Produto();
-		p1.name = "Pulseira do Flamengo";
-		p1.price = 100.00;
-		p1.discount = 0.15;
+		//Com esse contrutor explicito, você pode instanciar a classe ja com um dos atributos definidos;
+		Produto p1 = new Produto("Pulseira",100.00,0.15);
+		//p1.name = "Pulseira do Flamengo";
+		//p1.price = 100.00;
+		//p1.discount = 0.15;
 		
 		Produto p2 = new Produto();
 		p2.name = "Rélogio";
