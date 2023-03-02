@@ -7,9 +7,9 @@ public class Data {
 	
 	// Constutor com parâmetros para ser instânciado
 	Data(String diaInicial, String mesInicial, String anoInicial){
-		dia = diaInicial;
-		mes = mesInicial;
-		ano = anoInicial;
+		this.dia = diaInicial;
+		this.mes = mesInicial;
+		this.ano  = anoInicial;
 	}
 	
 	//Construtor padrão com os atributos já instânciados
