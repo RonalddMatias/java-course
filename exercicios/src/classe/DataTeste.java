@@ -4,7 +4,7 @@ public class DataTeste {
 
 	public static void main(String[] args) {
 		Data d1 = new Data();
-		
+	
 		Data d2 = new Data("27","02","2004");
 		
 		Data d3 = new Data();
